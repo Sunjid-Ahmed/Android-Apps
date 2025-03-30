@@ -1,7 +1,5 @@
 # ScrollView App
-
-![ScrollView App](ScrollView App/Screenshot 2025-03-30 104738.png)
-
+![ScrollView App](ScrollView%20App/Screenshot%202025-03-30%20104738.png)
 ## Overview
 ScrollView App is a simple and efficient application that utilizes a scrollable view to display content dynamically. It is designed to improve user experience by allowing smooth scrolling of elements.
 
