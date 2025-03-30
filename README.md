@@ -15,7 +15,7 @@ ScrollView App is a simple and efficient application that utilizes a scrollable 
 
 1. Clone the repository:
    ```sh
-   git clone https://github.com/yourusername/scrollview-app.git
+   git clone https://github.com/Sunjid-Ahmed/scrollview-app.git
    ```
 2. Navigate to the project directory:
    ```sh
