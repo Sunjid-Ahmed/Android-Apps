@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:background="@drawable/bg_hw"
+    android:padding="20dp">
+    <Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:title="Menu App"
+        android:titleTextColor="@color/design_default_color_on_primary"
+        android:background="#283593"
+        >
+
+    </Toolbar>
+
+
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="20dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:src="@drawable/burgger"
+            android:scaleType="centerCrop"
+            >
+
+        </ImageView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Burger"
+            android:textStyle="bold"
+            android:textSize="35sp"
+            android:textColor="#e8f5e9"
+            android:gravity="center"
+            >
+
+        </TextView>
+<Button
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Tap to See Details"
+    android:textStyle="bold"
+    android:layout_marginTop="15sp"
+    android:layout_marginBottom="15sp"
+    android:textSize="15sp"
+    android:textColor="#DAF7A6 "
+    android:backgroundTint="#581845 "
+>
+
+</Button>
+
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:src="@drawable/chicken_legpiece"
+            android:scaleType="centerCrop">
+
+        </ImageView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Chicken Legpiece"
+            android:textStyle="bold"
+            android:textSize="35sp"
+            android:textColor="#e8f5e9"
+            android:gravity="center"
+            >
+
+        </TextView>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Tap to See Details"
+            android:textStyle="bold"
+            android:layout_marginTop="15sp"
+            android:layout_marginBottom="15sp"
+            android:textSize="15sp"
+            android:textColor="#DAF7A6 "
+            android:backgroundTint="#581845 "
+            >
+
+        </Button>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:src="@drawable/french_fry"
+            android:scaleType="centerCrop">
+
+        </ImageView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="French Fry"
+            android:textStyle="bold"
+            android:textSize="35sp"
+            android:textColor="#e8f5e9"
+            android:gravity="center"
+            >
+
+        </TextView>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Tap to See Details"
+            android:textStyle="bold"
+            android:layout_marginTop="15sp"
+            android:layout_marginBottom="15sp"
+            android:textSize="15sp"
+            android:textColor="#DAF7A6 "
+            android:backgroundTint="#581845 "
+            >
+
+        </Button>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:src="@drawable/hotdog"
+            android:scaleType="centerCrop">
+
+        </ImageView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Hotdog"
+            android:textStyle="bold"
+            android:textSize="35sp"
+            android:textColor="#e8f5e9"
+            android:gravity="center"
+            >
+
+        </TextView>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Tap to See Details"
+            android:textStyle="bold"
+            android:layout_marginTop="15sp"
+            android:layout_marginBottom="15sp"
+            android:textSize="15sp"
+            android:textColor="#DAF7A6 "
+            android:backgroundTint="#581845 "
+            >
+
+        </Button>
+
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:src="@drawable/kabab"
+            android:scaleType="centerCrop">
+
+        </ImageView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Kabab"
+            android:textStyle="bold"
+            android:textSize="35sp"
+            android:textColor="#e8f5e9"
+            android:gravity="center"
+            >
+
+        </TextView>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Tap to See Details"
+            android:textStyle="bold"
+            android:layout_marginTop="15sp"
+            android:layout_marginBottom="15sp"
+            android:textSize="15sp"
+            android:textColor="#DAF7A6 "
+            android:backgroundTint="#581845 "
+            >
+
+        </Button>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:src="@drawable/kacchi"
+            android:scaleType="centerCrop">
+
+        </ImageView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Kacchi"
+            android:textStyle="bold"
+            android:textSize="35sp"
+            android:textColor="#e8f5e9"
+            android:gravity="center"
+            >
+
+        </TextView>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Tap to See Details"
+            android:textStyle="bold"
+            android:layout_marginTop="15sp"
+            android:layout_marginBottom="15sp"
+            android:textSize="15sp"
+            android:textColor="#DAF7A6 "
+            android:backgroundTint="#581845 "
+            >
+
+        </Button>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:src="@drawable/pizza"
+            android:scaleType="centerCrop">
+
+        </ImageView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Pizza"
+            android:textStyle="bold"
+            android:textSize="35sp"
+            android:textColor="#e8f5e9"
+            android:gravity="center"
+            >
+
+        </TextView>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Tap to See Details"
+            android:textStyle="bold"
+            android:layout_marginTop="15sp"
+            android:layout_marginBottom="45sp"
+            android:textSize="15sp"
+            android:textColor="#DAF7A6 "
+            android:backgroundTint="#581845 "
+            >
+
+        </Button>
+
+
+
+
+
+    </LinearLayout>
+
+
+
+
+</ScrollView>
+
+
+</LinearLayout>
